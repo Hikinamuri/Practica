@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ecad035ec2764694a3ebd6df2ebabf8e" Name="Diagram1">
+        <EntityTypeShape EntityType="application1Model.autoriz" Width="1.5" PointX="1.5" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.comment" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.commentMasterClient" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.homeTech" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.request" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.requestClientMaster" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.requestHomeTech" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.status" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.type" Width="1.5" PointX="1.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="application1Model.users" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="application1Model.FK_users_autoriz" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.FK_commentMasterClient_comment" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.FK_commentMasterClient_request" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.FK_requestClientMaster_request" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.FK_requestHomeTech_request" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.FK_requestClientMaster_users" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.requestStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="application1Model.userType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
